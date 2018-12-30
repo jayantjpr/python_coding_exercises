@@ -6,5 +6,5 @@ if w == 'Ascending':
         print((chr(ord('A') + j) + ' ') * rows)
 
 else:
-    for i in range(rows,0,-1):
-        print((chr(64+i) + ' ') * rows)
+    for i in range(rows, 0, -1):
+        print((chr(64 + i) + ' ') * rows)
