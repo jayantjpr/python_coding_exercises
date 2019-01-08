@@ -1,4 +1,10 @@
 import sys
+with open("5.txt") as f:
+	print(f.read())
+with open("9.txt") as f:
+	print(f.read())
+
+print('*****You can print these two types of pattern with this program. Enjoy!*****')
 
 initial_character = ord(input('Enter starting character:'))
 end_character = ord(input('Enter ending character:'))
