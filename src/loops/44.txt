@@ -1,4 +1,4 @@
-44.		A
+44.		    A
 	      B A B
 	    C B A B C
 	  D C B A B C D

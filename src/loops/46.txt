@@ -1,4 +1,4 @@
-46.		A
+46.		    A
 	      A B A
 	    A B C A B
 	  A B C D A B C

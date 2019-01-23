@@ -1,4 +1,4 @@
-38.		A
+38.		    A
 	      C C C
 	    E E E E E
 	  G G G G G G G

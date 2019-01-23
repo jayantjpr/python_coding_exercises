@@ -1,9 +1,11 @@
 with open("10.txt") as f:
-	print(f.read())
+    print(f.read())
 with open("15.txt") as f:
-	print(f.read())
+    print(f.read())
+with open('24.txt') as f:
+    print(f.read())
 
-w = input('Which one do you want to print?[10 or 15]')
+w = input('Which one do you want to print?[10 or 15 or 24]')
 n = int(input('Number of rows to be printed:'))
 
 if w == '10':
@@ -13,6 +15,11 @@ if w == '10':
 elif w == '15':
     for i in range(n, 0, -1):
         print('* ' * i)
+
+elif w == '24':
+    for i in range(1, n + 1):
+        print('     ', end = '')
+        print('*' * i)
 
 else:
 	print('No such Pattern Exist')

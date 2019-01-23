@@ -1,4 +1,4 @@
-42.		A
+42.		    A
 	      C B A
 	    E D C B A
 	  G F E D C B A

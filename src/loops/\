@@ -1,0 +1,9 @@
+with open('13.txt') as f:
+    print(f.read())
+
+n = ord(input('Enter the end character:'))
+a = n - 65
+
+
+for i in range(1,a):
+    print( (chr(64+i) + ' ') * i)
