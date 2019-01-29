@@ -8,7 +8,7 @@ def canItBeDone(pl, p):
         return "impossible"
 
 def sumTillN(n):
-    return (p * (p + 1)) / 2;
+    return (n * (n + 1)) / 2;
 
 N = int(input()) # The number of test cases
 for n in range(N):
